@@ -1,0 +1,168 @@
+{
+  "availableLanguageIds": [
+    "en_US"
+  ],
+  "contentType": "journal",
+  "dataDefinitionFields": [
+    {
+      "customProperties": {
+        "labelAtStructureLevel": true,
+        "ddmStructureLayoutId": "",
+        "ddmStructureId": "",
+        "upgradedStructure": false,
+        "fieldReference": "Fieldset24651741",
+        "rows": [
+          {
+            "columns": [
+              {
+                "size": 12,
+                "fields": [
+                  "Text58099007"
+                ]
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "size": 12,
+                "fields": [
+                  "Image58998311"
+                ]
+              }
+            ]
+          }
+        ],
+        "collapsible": false
+      },
+      "defaultValue": {},
+      "fieldType": "fieldset",
+      "indexable": false,
+      "label": {
+        "en_US": "Card"
+      },
+      "localizable": false,
+      "name": "Fieldset24651741",
+      "nestedDataDefinitionFields": [
+        {
+          "customProperties": {
+            "labelAtStructureLevel": true,
+            "hideField": false,
+            "confirmationErrorMessage": {
+              "en_US": ""
+            },
+            "autocomplete": false,
+            "ddmDataProviderInstanceId": [],
+            "dataType": "string",
+            "tooltip": {
+              "en_US": ""
+            },
+            "requireConfirmation": false,
+            "displayStyle": "singleline",
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "ddmDataProviderInstanceOutput": [],
+            "options": {},
+            "nativeField": false,
+            "confirmationLabel": {
+              "en_US": ""
+            },
+            "fieldReference": "Text58099007",
+            "placeholder": {
+              "en_US": ""
+            },
+            "dataSourceType": "",
+            "direction": [
+              "vertical"
+            ]
+          },
+          "defaultValue": {},
+          "fieldType": "text",
+          "indexType": "keyword",
+          "indexable": true,
+          "label": {
+            "en_US": "Headline"
+          },
+          "localizable": true,
+          "name": "Text58099007",
+          "nestedDataDefinitionFields": [],
+          "readOnly": false,
+          "repeatable": false,
+          "required": false,
+          "showLabel": true,
+          "tip": {
+            "en_US": ""
+          }
+        },
+        {
+          "customProperties": {
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "dataType": "image",
+            "requiredDescription": true,
+            "fieldReference": "Image58998311"
+          },
+          "defaultValue": {},
+          "fieldType": "image",
+          "indexType": "text",
+          "indexable": true,
+          "label": {
+            "en_US": "Imagem"
+          },
+          "localizable": true,
+          "name": "Image58998311",
+          "nestedDataDefinitionFields": [],
+          "readOnly": false,
+          "repeatable": false,
+          "required": false,
+          "showLabel": true,
+          "tip": {
+            "en_US": ""
+          }
+        }
+      ],
+      "readOnly": false,
+      "repeatable": true,
+      "required": false,
+      "showLabel": true,
+      "tip": {}
+    }
+  ],
+  "defaultDataLayout": {
+    "dataLayoutFields": {},
+    "dataLayoutPages": [
+      {
+        "dataLayoutRows": [
+          {
+            "dataLayoutColumns": [
+              {
+                "columnSize": 12,
+                "fieldNames": [
+                  "Fieldset24651741"
+                ]
+              }
+            ]
+          }
+        ],
+        "description": {
+          "en_US": ""
+        },
+        "title": {
+          "en_US": ""
+        }
+      }
+    ],
+    "dataRules": [],
+    "description": {},
+    "name": {
+      "en_US": "Card"
+    },
+    "paginationMode": "single-page"
+  },
+  "defaultLanguageId": "en_US",
+  "description": {},
+  "name": {
+    "en_US": "Card"
+  },
+  "storageType": "default"
+}

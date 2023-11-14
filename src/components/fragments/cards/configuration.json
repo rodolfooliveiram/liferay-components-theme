@@ -1,0 +1,30 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "numberOfCards",
+          "label": "Number of Cards",
+          "description": "number-of-cards",
+          "type": "text",
+          "typeOptions": {
+            "placeholder": "Placeholder"
+          },
+          "dataType": "int",
+          "defaultValue": "1"
+        },
+        {
+          "name": "buttonText",
+          "label": "Button Text",
+          "description": "button-text",
+          "type": "text",
+          "typeOptions": {
+            "placeholder": "Placeholder"
+          },
+          "dataType": "string",
+          "defaultValue": "Go Somewhere"
+        }
+      ]
+    }
+  ]
+}
