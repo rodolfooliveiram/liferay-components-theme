@@ -1,11 +1,6 @@
-.fragment_901 {
-  font-family: 'Inter', sans-serif;
-  color: #0e2138;
-}
-
 .banner .main-heading {
   max-width: 17ch;
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .banner .block {
@@ -17,7 +12,7 @@
   border-radius: 20px;
   overflow: hidden;
   height: 220px;
-	background-color: gainsboro;
+  background-color: gainsboro;
 }
 
 .banner .block-img img {
@@ -35,7 +30,7 @@
 .banner-cta {
   color: #0e2138;
   transition: 0.3s;
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .banner-cta:hover {
@@ -51,8 +46,8 @@
 }
 
 .banner-cta-btn:hover {
-	text-decoration: none;
-	color: #0e2138;
+  text-decoration: none;
+  color: #0e2138;
   box-shadow: inset 0 64px 0 -64px #19dbd1;
 }
 
@@ -87,14 +82,14 @@
   .banner .block-img {
     height: 300px;
   }
-	
-	.banner .main-heading {
+
+  .banner .main-heading {
     font-size: 2.25rem;
   }
 }
 
 @media (min-width: 768px) {
-	.banner .main-heading {
+  .banner .main-heading {
     font-size: 2.5rem;
   }
 }
