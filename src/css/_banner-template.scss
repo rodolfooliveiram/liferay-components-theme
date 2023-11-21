@@ -1,0 +1,29 @@
+.banner-with-img {
+  img {
+    max-width: 300px !important;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-with-img img {
+    max-width: 400px !important;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-with-img img {
+    max-width: 500px !important;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
