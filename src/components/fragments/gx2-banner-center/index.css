@@ -1,0 +1,14 @@
+.banner-center {
+	height: 500px;
+	background-color: gainsboro;
+}
+
+.banner-center p {
+  font-size: 1.25rem;
+  max-width: 55ch;
+}
+
+.banner-center a {
+	text-decoration: none;
+  border-radius: 20px;
+}
