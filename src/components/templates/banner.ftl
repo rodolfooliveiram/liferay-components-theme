@@ -10,8 +10,8 @@
 			</#if>
 			
       <#if (Text80650397.getData())??>
-      <a href="#" class="btn-primary py-3 px-5 font-weight-bold d-inline-block">${Text80650397.getData()}</a>
-      </#if> 
+				<a href="#" class="btn-primary py-3 px-5 font-weight-bold d-inline-block">${Text80650397.getData()}</a>
+			</#if> 
     </div>
 
     <div class="col-md-7 d-flex justify-content-center">
