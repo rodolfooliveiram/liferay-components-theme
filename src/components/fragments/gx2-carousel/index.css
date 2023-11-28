@@ -1,0 +1,50 @@
+.prevArrow,
+.nextArrow {
+  border: none;
+  background-color: transparent;
+  height: 48px;
+  position: absolute;
+  top: calc(50% - 24px);
+}
+
+.prevArrow .line1,
+.prevArrow .line2,
+.nextArrow .line1,
+.nextArrow .line2 {
+  width: 32px;
+  height: 5px;
+  background-color: #b3b3b3;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.prevArrow:hover .line1,
+.prevArrow:hover .line2,
+.nextArrow:hover .line1,
+.nextArrow:hover .line2 {
+  background-color: #737373;
+}
+
+.prevArrow .line1,
+.nextArrow .line1 {
+  transform: rotate(45deg) translateY(18px);
+}
+
+.prevArrow .line2,
+.nextArrow .line2 {
+  transform: rotate(-45deg) translateY(-18px);
+}
+
+.prevArrow {
+  left: -36px;
+}
+
+.nextArrow {
+  transform: rotate(180deg);
+  right: -36px;
+}
+
+.prevArrow .line-wrapper,
+.nextArrow .line-wrapper {
+  transform: translateX(25%);
+}
