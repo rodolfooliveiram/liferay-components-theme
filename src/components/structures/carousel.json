@@ -1,0 +1,77 @@
+{
+  "availableLanguageIds": [
+    "en_US"
+  ],
+  "contentType": "journal",
+  "dataDefinitionFields": [
+    {
+      "customProperties": {
+        "fieldNamespace": "",
+        "requiredErrorMessage": {
+          "en_US": ""
+        },
+        "visibilityExpression": "",
+        "objectFieldName": "",
+        "dataType": "image",
+        "requiredDescription": true,
+        "fieldReference": "ImageSlide"
+      },
+      "defaultValue": {
+        "en_US": {}
+      },
+      "fieldType": "image",
+      "indexType": "text",
+      "indexable": true,
+      "label": {
+        "en_US": "Image"
+      },
+      "localizable": true,
+      "name": "Image85263587",
+      "nestedDataDefinitionFields": [],
+      "readOnly": false,
+      "repeatable": true,
+      "required": false,
+      "showLabel": true,
+      "tip": {
+        "en_US": ""
+      }
+    }
+  ],
+  "defaultDataLayout": {
+    "dataLayoutFields": {},
+    "dataLayoutPages": [
+      {
+        "dataLayoutRows": [
+          {
+            "dataLayoutColumns": [
+              {
+                "columnSize": 12,
+                "fieldNames": [
+                  "Image85263587"
+                ]
+              }
+            ]
+          }
+        ],
+        "description": {
+          "en_US": ""
+        },
+        "title": {
+          "en_US": ""
+        }
+      }
+    ],
+    "dataRules": [],
+    "description": {},
+    "name": {
+      "en_US": "Carousel"
+    },
+    "paginationMode": "single-page"
+  },
+  "defaultLanguageId": "en_US",
+  "description": {},
+  "name": {
+    "en_US": "Carousel"
+  },
+  "storageType": "default"
+}
