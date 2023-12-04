@@ -1,4 +1,4 @@
-$(document).ready(function () {
+Liferay.on('allPortletsReady', () => {
   $('.rockets-carousel').slick({
     infinite: true,
     slidesToShow: 3,
