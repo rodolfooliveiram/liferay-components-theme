@@ -1,5 +1,5 @@
-// Inicializa o template de carrossel (Web Content)
-$(document).ready(() => {
+// Initialize Carousel Template (Web Content)
+Liferay.on('allPortletsReady', () => {
   $('.carousel-template').slick({
     infinite: true,
     slidesToShow: 3,
