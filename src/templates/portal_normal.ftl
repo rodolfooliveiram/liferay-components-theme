@@ -65,13 +65,13 @@
 			</p>
 		</footer>
 	</div>
+	<@themeJs filename='jquery-1.11.0.js' />
+	<@themeJs filename='jquery-migrate-1.2.1.js' />
+	<@themeJs filename='slick.js' />
 	<@liferay_util["include"]
 		page=body_bottom_include />
 	<@liferay_util["include"]
 		page=bottom_include />
-	<@themeJs filename='jquery-1.11.0.js' />
-	<@themeJs filename='jquery-migrate-1.2.1.js' />
-	<@themeJs filename='slick.js' />
 </body>
 
 </html>
