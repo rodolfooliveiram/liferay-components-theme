@@ -1,5 +1,6 @@
-// Initialize Carousel Template (Web Content)
+// Slick Carousels Scripts
 $(document).ready(function () {
+  // Carousel Template (Web Content)
   $('.carousel-template').slick({
     infinite: true,
     slidesToShow: 3,
@@ -35,6 +36,25 @@ $(document).ready(function () {
           arrows: false,
           centerMode: true,
           dots: true,
+        },
+      },
+    ],
+  });
+
+  // GX2 Asset Publisher Template
+  $('.case-carousel').slick({
+    prevArrow:
+      "<button class='prevArrow'><div class='line-wrapper'><div class='line1'></div><div class='line2'></div></div></button>",
+    nextArrow:
+      "<button class='nextArrow'><div class='line-wrapper'><div class='line1'></div><div class='line2'></div></div></button>",
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
         },
       },
     ],

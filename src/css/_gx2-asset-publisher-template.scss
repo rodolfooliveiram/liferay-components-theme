@@ -1,0 +1,66 @@
+.case-carousel {
+  border-radius: 10px;
+  background-color: #fff;
+  filter: drop-shadow(0px 6px 24px rgba(0, 0, 0, 0.1));
+}
+
+.case {
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+.case-img-wrapper {
+  max-height: 150px;
+}
+
+.case-img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.category {
+  font-size: 0.875rem;
+  color: #ffffff;
+  border-radius: 35px;
+  background-color: #5d3fd3;
+  margin-right: 1rem;
+}
+
+.cases {
+  background-color: #04254c;
+}
+
+.data-science {
+  color: #5d3fd3;
+}
+
+.liferay-dxp {
+  background-color: #0b5fff;
+}
+
+.outsourcing {
+  background-color: #50c878;
+}
+
+@media (min-width: 576px) {
+  .case {
+    h2 {
+      max-height: unset;
+      font-size: 1.5rem;
+    }
+  }
+
+  .case-img-wrapper {
+    max-height: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .case-img-wrapper {
+    max-height: unset;
+  }
+}

@@ -45,3 +45,22 @@
   transform: rotate(180deg);
   right: -36px;
 }
+
+// Custom Slick Carousel Dots
+.slick-dots li {
+  height: 12px;
+  width: 12px;
+  margin: 0 10px;
+
+  button {
+    height: 12px;
+    width: 12px;
+
+    &:before {
+      height: 12px;
+      width: 12px;
+      background-color: black;
+      border-radius: 6px;
+    }
+  }
+}
